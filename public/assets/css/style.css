@@ -1,0 +1,110 @@
+body {
+  font-family: "Karla", sans-serif;
+
+  width: 100vw;
+  margin: auto;
+  background-color: lightblue;
+
+}
+
+/***** Headings *****/
+
+h1 {
+  font-size: 5rem;
+  font-weight: 1000;
+  font-family: "Karla", sans-serif;
+  font-variant: small-caps;
+
+  text-align: center;
+  margin: 3rem;
+  color: red;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: "Karla", sans-serif;
+  font-variant: small-caps;
+
+  margin: auto;
+  text-align: center;
+}
+
+/***** Descriptions *****/
+
+h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Karla", sans-serif;
+  font-variant: small-caps;
+
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+
+  color: white;
+  background-color: black;
+  border: 3px solid red;
+}
+
+/***** Image Gallery *****/
+
+.object {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  margin: 3rem;
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+figure:hover {
+  transform: scale(1.2);
+  color: red;
+}
+
+figure img {
+  max-width: 100%;
+  vertical-align: bottom;
+
+  border: 3px solid red;
+}
+
+/***** Image Credit *****/
+
+figure figcaption {
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  font-variant: small-caps;
+  font-size: 1rem;
+
+  padding: 10px 5px 10px 5px;
+
+  border-radius: 1rem;
+}
+
+figcaption a {
+  text-decoration: none;
+}
+
+/****** Media Queries *****/
+
+@media only screen and (max-width: 1220px) {
+  body {
+    width: 100vw;
+    margin: auto;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
