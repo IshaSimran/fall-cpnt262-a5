@@ -1,7 +1,7 @@
 # Fall-CPNT262-A5 : Deployed Rest API
 ## By Isha Simran
 
-- [GitHub Repo]()
+- [GitHub Repo](https://github.com/IshaSimran/fall-cpnt262-a5)
 
 - [Heroku Link]()
 
