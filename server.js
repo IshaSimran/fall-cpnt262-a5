@@ -1,9 +1,11 @@
 // Modules loaded
+const dotenv = require('dotenv').config()
 const path = require('path');
 const express = require('express');
 const app = express();
+const router = require('./routes/api')
 
-const pokemon = require('./data/gallery.js')
+app.use(router)
 
 app.use(express.static(path.join(__dirname, 'public')));
 
