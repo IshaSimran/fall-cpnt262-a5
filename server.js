@@ -7,6 +7,8 @@ const router = require('./routes/api')
 
 app.use(router)
 
+app.use(dotenv)
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (request, response) => {

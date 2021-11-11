@@ -1,18 +1,19 @@
 // Import modules
 
-const express = require('express') // Run Express
-const router = express.Router() // Connect to `server.js`
+const express = require('express')
+const router = express.Router()
 
 // Connect to MongoDB
 const mongoose = require('mongoose');
-
-mongoose.connect(
-  process.env.MONGODB_URL,
+mongoose.connect("mongodb+srv://isha:powder-cup@fall-cpnt262-a5.v84uk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   { useUnifiedTopology: true, useNewUrlParser: true },
 )
+
   .then(function () {
     console.log('Connected to DB...')
   })
+
+  // Error Handling
   .catch(function (err) {
     console.log(err)
   });

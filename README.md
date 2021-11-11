@@ -3,7 +3,11 @@
 
 - [GitHub Repo](https://github.com/IshaSimran/fall-cpnt262-a5)
 
-- [Heroku Link]()
+- [Heroku Link](https://fall-cpnt262-a5.herokuapp.com/)
+
+## ISSUES!
+
+So basically this has broken my brain. I am happy that I do finally understand the requiremnets of this assignment but its taking me time to understand the concept of connecting through routes and a server. I am just handing in as much as I could figure out. 
 
 ## Attributions
 
